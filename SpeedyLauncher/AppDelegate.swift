@@ -11,6 +11,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSPopoverDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         setupStatusItem()
+        #if SPARKLE
+        SparkleUpdater.start()
+        #endif
         setupHotkey()
         setupEventMonitor()
         observeSettingsChanges()
