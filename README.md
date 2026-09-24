@@ -59,6 +59,16 @@ analytics, and collects no data. Your configuration lives in a single JSON file 
 
 - macOS 14.0 (Sonoma) or later
 
+## Install
+
+```sh
+brew tap n14395/tap
+brew install --cask speedy-launcher
+```
+
+Or download the `.dmg` from [Releases](../../releases) and drag SpeedyLauncher to
+Applications.
+
 ## Building from source
 
 The project is a standard Xcode project (`SpeedyLauncher.xcodeproj`). Open it in
