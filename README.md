@@ -96,3 +96,8 @@ A few implementation notes:
 ---
 
 <p align="center">© 2026 n14395 · <a href="https://n14395.com/speedlauncher">n14395.com/speedlauncher</a></p>
+
+## License
+
+Licensed under the [Apache License, Version 2.0](LICENSE).
+Third-party attribution is in [NOTICE](NOTICE).
