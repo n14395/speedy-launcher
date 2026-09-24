@@ -461,6 +461,10 @@ struct GeneralSettingsView: View {
                         NSWorkspace.shared.open(url)
                     }
                 }
+
+                #if SPARKLE
+                SparkleCheckForUpdatesButton()
+                #endif
             }
             .formStyle(.grouped)
 

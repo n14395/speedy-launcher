@@ -220,19 +220,6 @@ struct MenuPopoverView: View {
             .buttonStyle(.plain)
             .foregroundStyle(.secondary)
 
-            #if SPARKLE
-            Button {
-                SparkleUpdater.shared.checkForUpdates()
-            } label: {
-                Label("Check for Updates…", systemImage: "arrow.down.circle")
-                    .font(.system(size: 12))
-                    .frame(maxWidth: .infinity, alignment: .center)
-                    .contentShape(Rectangle())
-            }
-            .buttonStyle(.plain)
-            .foregroundStyle(.secondary)
-            #endif
-
             Button {
                 NSApplication.shared.terminate(nil)
             } label: {
